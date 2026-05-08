@@ -50,9 +50,7 @@ function Navbar() {
         </ul>
 
         <a
-          href="https://portvelocity.com"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#contact"
           className="hidden md:inline-block bg-[#12073D] text-white px-5 py-3 rounded-2xl font-semibold hover:bg-[#1B0A55] hover:scale-[1.02] transition-all duration-300 shadow-lg"
         >
           Get Started
@@ -111,9 +109,8 @@ function Navbar() {
 
             <li>
               <a
-                href="https://portvelocity.com"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#contact"
+                onClick={() => setMenuOpen(false)}
                 className="inline-block bg-[#12073D] text-white px-5 py-3 rounded-2xl font-semibold text-center"
               >
                 Get Started
